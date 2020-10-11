@@ -45,16 +45,16 @@ int r = randrange(10, 100); // returns random number between 10 and 100
 Simple class for terminal colours. (Linux)
 The API is;
 
-  .*colour*
-  .bright_*colour*
-  .bg_*colour*
-  .bg_bright_*colour*
-  .bold
-  .underline
-  .reversed
-  .reset
-  .fg(colour_id)
-  .bg(colour_id)
+    .*colour*
+    .bright_*colour*
+    .bg_*colour*
+    .bg_bright_*colour*
+    .bold
+    .underline
+    .reversed
+    .reset
+    .fg(colour_id)
+    .bg(colour_id)
 
 Examples:
 ```d
