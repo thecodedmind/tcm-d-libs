@@ -24,9 +24,12 @@ class Opt {
 	i++;
     } 
   }
-
-  string command(int index = 0) {
-    if(index >= this.commands.length) return "";
+  string command(string defaultv = "") {
+    if(this.commands.length == 0) return defaultv;
+    return this.commands[0];
+  }
+  string command(int index = 0, string defaultv = "") {
+    if(index >= this.commands.length) return defaultv;
     return this.commands[index];
   }
   
